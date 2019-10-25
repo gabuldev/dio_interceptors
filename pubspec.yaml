@@ -1,8 +1,9 @@
 name: dio_interceptors
-description: A new Flutter package project.
+description: Implements interceptors for you use on Dio package.
 version: 0.0.1
-author:
-homepage:
+author: Gabriel Sávio - Flutterando <gbrlsavio2@gmail.com>
+homepage: https://gabul.dev
+repository: https://github.com/gabuldev/dio_interceptors
 
 environment:
   sdk: ">=2.2.2 <3.0.0"
