@@ -16,7 +16,7 @@ class InterceptorToken extends InterceptorsWrapper {
 
   @override
   Future onRequest(RequestOptions options) async {
-    options.headers.addAll({"Authorization": await token()});
+    options.headers.addAll({"authorization": await token()});
     return options;
   }
 }
