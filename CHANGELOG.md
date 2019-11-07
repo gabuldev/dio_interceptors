@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.2] - TODO: 07/11/19.
 
-* TODO: Create Intercetpor Mock.
+* TODO: Create Interceptor Token.

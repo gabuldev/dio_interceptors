@@ -32,4 +32,18 @@ void main() {
 
 ```
 
+### Interceptor Token
+
+You can use for add JWT all requests
+
+```dart
+Future<String> token() async{
+  //Implements your logic here
+  return jwt;
+}
+
+dio.interceptors.add(InterceptorToken(token: token()))
+
+```
+
 
