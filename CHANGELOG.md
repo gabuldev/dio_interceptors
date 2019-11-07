@@ -1,3 +1,3 @@
-## [0.0.2] - TODO: 07/11/19.
+## [0.0.3] - TODO: 07/11/19.
 
-* TODO: Create Interceptor Token.
+* TODO:Export Interceptor Token.
