@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:flutter/foundation.dart';
 
 ///You can use for add JWT all requests
 ///
@@ -11,7 +12,7 @@ import 'package:dio/dio.dart';
 class InterceptorToken extends InterceptorsWrapper {
   final Future<String> Function() token;
 
-  InterceptorToken(this.token);
+  InterceptorToken({@required this.token});
 
   @override
   Future onRequest(RequestOptions options) async {
