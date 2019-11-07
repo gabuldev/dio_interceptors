@@ -42,7 +42,7 @@ Future<String> token() async{
   return jwt;
 }
 
-dio.interceptors.add(InterceptorToken(token: token()))
+dio.interceptors.add(InterceptorToken(token: () async => await token()))
 
 ```
 
