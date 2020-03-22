@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:dio_interceptors/src/mock/mock.dart';
 
 /// You can use for Mock your API
 ///
@@ -18,19 +19,12 @@ import 'package:dio/dio.dart';
 /// YOURDATA = {"name1": "1"}
 /// ```
 class InterceptorMock implements InterceptorsWrapper {
-  final Map mockData;
+  final Mock mock;
 
-  InterceptorMock(this.mockData);
+  InterceptorMock(this.mock);
   @override
   Future onRequest(RequestOptions options) async {
-    if (mockData.containsKey(options.path)) {
-      return Response(
-          statusCode: options.method == "GET" ? 200 : 201,
-          data: mockData[options.path]);
-    } else {
-      throw DioError(
-          type: DioErrorType.RESPONSE, error: "Don't have on MOCKDATA");
-    }
+    return this.mock.verify(options);
   }
 
   @override

@@ -9,7 +9,8 @@ environment:
   sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
-  dio: ">= 2.0.0 <4.0.0"
+  dio: ^3.0.9
+  #dio: ">= 2.0.0 <4.0.0"
   flutter:
     sdk: flutter
 
