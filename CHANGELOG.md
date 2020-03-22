@@ -1,4 +1,4 @@
-## [0.0.4] - TODO: 22/03/20.
+## [0.0.4+1] - TODO: 22/03/20.
 
 * TODO: Add new config for MOCK you application.
 
