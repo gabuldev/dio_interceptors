@@ -1,7 +1,11 @@
-## [0.0.4+1] - TODO: 22/03/20.
+# [0.0.5]
 
-* TODO: Add new config for MOCK you application.
+- Migration for nullsafety
 
-## [0.0.3+3] - TODO: 07/11/19.
+# [0.0.4+1]
 
-* TODO: Change key map for authorization.
+- TODO: Add new config for MOCK you application.
+
+# [0.0.3+3]
+
+- TODO: Change key map for authorization.

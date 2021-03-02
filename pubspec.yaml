@@ -1,14 +1,14 @@
 name: dio_interceptors
 description: Implements interceptors for you use on Dio package.
-version: 0.0.4+1
+version: 0.0.5
 homepage: https://gabul.dev
 repository: https://github.com/gabuldev/dio_interceptors
 
 environment:
-  sdk: ">=2.2.2 <3.0.0"
+  sdk: ">=2.12.0-0.0 <3.0.0"
 
 dependencies:
-  dio: ^3.0.9
+  dio: ^4.0.0-beta2
   #dio: ">= 2.0.0 <4.0.0"
   flutter:
     sdk: flutter
